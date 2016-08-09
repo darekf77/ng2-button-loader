@@ -1,0 +1,15 @@
+<button type="submit" class="btn btn-{{type}}" [disabled]="(state !== buttonState.NORMAL) || (state === buttonState.NORMAL && disabled)" 
+    [ngClass]="{
+        'error-resolve': withError,
+        'error-state': state === buttonState.ERROR
+        }"
+    (click)="onClick()"
+    [ngClass]="{'static_width': state !== buttonState.NORMAL}" >    
+    <span *ngIf="state === buttonState.LOADING || state === buttonState.NORMAL"   >
+        <img [src]="loaderImgUlr" *ngIf="state === buttonState.LOADING" > 
+        <span style="visibility: hidden;" *ngIf="state === buttonState.LOADING" >www</span>
+        <ng-content></ng-content>        
+    </span>    
+    <span *ngIf="state === buttonState.FINISH" [innerHTML]="textSuccess"    ></span>
+    <span *ngIf="state === buttonState.ERROR" [innerHTML]="textError"  ></span>
+</button>
