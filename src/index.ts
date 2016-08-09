@@ -1,2 +1,2 @@
-export * from './ng2-button-loader.component';
+export * from './ng2-button-loader';
 export * from './button-state';

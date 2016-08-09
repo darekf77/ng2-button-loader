@@ -1,6 +1,6 @@
 {
   "name": "ng2-button-loader",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Button with loader for angualr 2",
   "main": "ng2-button-loader",
   "dependencies": {},
