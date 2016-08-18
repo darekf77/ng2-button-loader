@@ -1,6 +1,6 @@
 {
   "name": "ng2-button-loader",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Button with loader for angualr 2",
   "main": "ng2-button-loader",
   "dependencies": {},
@@ -33,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/darekf77/ng2-button-save.git"
+    "url": "git+https://github.com/darekf77/ng2-button-loader.git"
   },
   "keywords": [
     "button",
@@ -45,7 +45,7 @@
   "author": "Dariusz Filipiak",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/darekf77/ng2-button-save/issues"
+    "url": "https://github.com/darekf77/ng2-button-loader/issues"
   },
-  "homepage": "https://github.com/darekf77/ng2-button-save#readme"
+  "homepage": "https://github.com/darekf77/ng2-button-loader#readme"
 }
