@@ -1,7 +1,7 @@
 import { Component, OnInit, Input, HostBinding, ElementRef } from '@angular/core';
 let url = require('file!./350.gif');
 
-import { Log, Level } from 'ng2-logger/ng2-logger';
+import { Log, Level } from 'ng2-logger';
 const log = Log.create('button save', Level.__NOTHING);
 
 import { ButtonState } from './button-state';
