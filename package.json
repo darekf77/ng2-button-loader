@@ -294,6 +294,6 @@
     "url": "https://github.com/darekf77/ng2-button-loader/issues"
   },
   "homepage": "https://github.com/darekf77/ng2-button-loader#readme",
-  "private": false,
+  "private": true,
   "lastBuildTagHash": "5a948985c17458b335e23daed673535ca6796483"
 }
