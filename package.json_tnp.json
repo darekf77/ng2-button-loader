@@ -32,5 +32,6 @@
     "spinner",
     "spin"
   ],
-  "private": false
+  "private": false,
+  "workerPlugins": {}
 }
