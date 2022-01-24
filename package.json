@@ -287,5 +287,8 @@
   },
   "homepage": "https://github.com/darekf77/ng2-button-loader#readme",
   "private": false,
-  "lastBuildTagHash": "198ed0699a6f83ecd291227ec58d03107321c704"
+  "lastBuildTagHash": "198ed0699a6f83ecd291227ec58d03107321c704",
+  "recreatedFrom": {
+    "tnp.json": true
+  }
 }
