@@ -1,8 +1,49 @@
 {
+  "tnp": {
+    "resources": [],
+    "overrided": {
+      "linkedFolders": [],
+      "ignoreDepsPattern": [
+        "*"
+      ],
+      "includeAsDev": [],
+      "includeOnly": [],
+      "dependencies": {},
+      "npmFixes": []
+    },
+    "linkedProjects": [],
+    "smartContainerBuildTarget": "",
+    "linkedRepos": [],
+    "libReleaseOptions": {
+      "nodts": false,
+      "obscure": false,
+      "ugly": false,
+      "includeNodeModules": false
+    },
+    "smartContainerTarget": "",
+    "type": "isomorphic-lib",
+    "version": "v3",
+    "scripts": {
+      "test": "karma start"
+    },
+    "description": "Button with loader for angualr 2",
+    "license": "MIT",
+    "author": "Dariusz Filipiak",
+    "homepage": "https://github.com/darekf77/ng2-button-loader#readme",
+    "main": "ng2-button-loader",
+    "keywords": [
+      "button",
+      "ajax",
+      "loader",
+      "spinner",
+      "spin"
+    ],
+    "private": true,
+    "workerPlugins": {}
+  },
   "name": "ng2-button-loader",
   "version": "0.0.19",
   "description": "Button with loader for angualr 2",
-  "main": "ng2-button-loader",
   "dependencies": {
     "@angular-devkit/build-angular": "~13.3.9",
     "@angular-devkit/core": "~13.3.9",
