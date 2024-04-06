@@ -21,7 +21,8 @@
       "includeNodeModules": false,
       "cliBuildNoDts": false,
       "cliBuildObscure": false,
-      "cliBuildIncludeNodeModules": false
+      "cliBuildIncludeNodeModules": false,
+      "cliBuildUglify": false
     },
     "smartContainerTarget": "",
     "type": "isomorphic-lib",
@@ -300,5 +301,6 @@
   },
   "homepage": "https://github.com/darekf77/ng2-button-loader#readme",
   "private": true,
-  "lastBuildTagHash": "198ed0699a6f83ecd291227ec58d03107321c704"
+  "lastBuildTagHash": "198ed0699a6f83ecd291227ec58d03107321c704",
+  "main": "ng2-button-loader"
 }
